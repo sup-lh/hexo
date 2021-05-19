@@ -43,6 +43,7 @@
 
 <body>
   <div id="container" q-class="show:isCtnShow">
+    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 9999; pointer-events: none;" ></canvas>
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
@@ -422,7 +423,9 @@
   </div>
 <span id="busuanzi_container_site_pv">  总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 <span id="busuanzi_container_site_uv">  访客数<span id="busuanzi_value_site_uv"></span>人次</span>
+
 </footer>
+
 
     </div>
     <script>
@@ -668,5 +671,9 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
 
 </div>
   </div>
+
+  <!-- 爆炸 -->
+  <script src="https://cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+  <script src="https://script-1256884783.file.myqcloud.com/cursor/explosion.min.js"></script>
 <script src="/hexo/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/hexo/live2dw/assets/33.2018.spring.model.json"},"display":{"position":"left","width":250,"height":450,"hOffset":200,"vOffset":350},"dialog":{"enable":true},"mobile":{"show":true,"scale":0.5}});</script></body>
 </html>
